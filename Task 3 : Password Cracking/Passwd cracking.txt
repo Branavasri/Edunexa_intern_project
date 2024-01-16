@@ -1,0 +1,12 @@
+passwd cracking task 3:
+
+1.craete a text file.
+2.compress it zip format with password.
+3.use "zip2john" tool to create a hash format text file.
+   follow cmd 'zip2john <create_name.zip> <text_file.txt>'
+
+4.use john the ripper tool use to dictionary attack in hash file.
+5.Use dictionary attacks need password list create (brute force attacks) or download in internet or use default john password list.
+     Then use cmd 'john --wordlist=<passwd_filename.txt> <hash_file.txt>
+
+Now john tool try all password in the list.
